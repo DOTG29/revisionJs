@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_chess {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 800px;
+    border: 10px solid black;
+}
+
+.casse_blanch {
+    width: 12.5%;
+    height: 12.5%;
+    background-color: #fff;
+}
+
+.casse_noir {
+    width: 12.5%;
+    height: 12.5%;
+    background-color: black;
+}
+
+/* button {
+    margin: 10px;
+    padding: 10px;
+} */
+
+nav, ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav_div {
+    width: 200px;
+    height: 80px;
+    background-color: violet;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    list-style:none ;
+}
+
+.grosse_div {
+    width: 600px;
+    height: 240px;
+    background-color: blueviolet;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+.blue {
+    background-color: blue;
+}
